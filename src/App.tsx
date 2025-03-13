@@ -22,6 +22,21 @@ function App() {
           </div>
           <img className="cloudyIcon" src={cloudyIcon} alt="cloudyIcon" />
         </div>
+        <div className="moreInfoContainer">
+          <span className="detailsSpan">Weather Details...</span>
+          <div className="detailsInfoContainer">
+            <p>THUNDERSTORM WITH LIGHT DRIZZLE</p>
+              <div className="detailsInfo">
+                    <div>
+                      <span>Temp max</span>
+                      <div>
+                        <p>19°</p>
+                        <img src="" alt="" />
+                      </div>
+                    </div>
+              </div>
+          </div>
+        </div>
       </main>
     </>
   )

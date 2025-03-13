@@ -27,6 +27,7 @@ header form {
   width: 125px;
   height: 20px;
   border-bottom: 1px solid white;
+  margin-left: 190px;
 }
 
 form input {
@@ -54,7 +55,7 @@ form input {
 .basicInfoContainer {
   margin-top: 100px;
   display: flex;
-  gap: 20px;
+  gap: 35px;
   width: 300px;
   margin-left: 20px;
 }
@@ -101,4 +102,33 @@ form input {
   width: 40px;
   height: 40px;
   margin-top: 15px;
+  margin-left: -20px;
+}
+
+.moreInfoContainer {
+  background: url(./assets/bg-blur.svg) #FFFFFF24;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 430px;
+  top: 247px;
+  border-top-width: 5px;
+
+}
+
+.moreInfoContainer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.detailsInfoContainer {
+  margin-top: 20px;
+}
+
+.detailsSpan {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
 }

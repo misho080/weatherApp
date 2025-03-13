@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(./assets/rainmobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 15px;
+  width: 340px;
+}
+
+header form {
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  height: 20px;
+  border-bottom: 1px solid white;
+}
+
+form input {
+  width: 125px;
+  height: 20px;
+  background: transparent;
+  border-style: none;
+}
+
+.inputSearchIcon {
+  width: 12px;
+  height: 11px;
+}
+
+.searchInput {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 114px;
+  height: 14px;
+}
+
+.basicInfoContainer {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.currentTemp {
+  width: 86px;
+  height: 75px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: -8%;
+  color: white;
+
+}
+
+.cityName {
+  width: 139px;
+  height: 25.217391967773438px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.cityDataTime {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  display: block;
+  margin-top: 5px;
+}
+
+.cityNameContainer {
+  margin-top: 15px;
+}
+
+.cloudyIcon {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}

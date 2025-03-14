@@ -1,6 +1,10 @@
-import mainLogo from "./assets/logo.png"
-import inputSearchIcon from "./assets/search.png"
-import cloudyIcon from "./assets/Cloudy.png"
+import mainLogo from "./assets/Group 165.svg"
+import inputSearchIcon from "./assets/fa_search.svg"
+import cloudyIcon from "./assets/Cloudy.svg"
+import TempMaxIcon from "./assets/Vector.svg"
+import windIcon from "./assets/outline (2).svg"
+import humadityIcon from "./assets/outline.svg"
+import tempMinIcon from "./assets/Vector (1).svg"
 
 function App() {
 
@@ -26,17 +30,47 @@ function App() {
           <span className="detailsSpan">Weather Details...</span>
           <div className="detailsInfoContainer">
             <p>THUNDERSTORM WITH LIGHT DRIZZLE</p>
-              <div className="detailsInfo">
-                    <div>
-                      <span>Temp max</span>
-                      <div>
-                        <p>19°</p>
-                        <img src="" alt="" />
-                      </div>
-                    </div>
+            <div className="detailsInfo">
+              <div className="info">
+                <span>Temp max</span>
+                <div className="infoNumber">
+                  <span>19°</span>
+                  <img src={TempMaxIcon} alt="TempMaxIcon" />
+                </div>
               </div>
+              <div className="info">
+                <span>Temp min</span>
+                <div className="infoNumber" >
+                  <span >15°</span>
+                  <img src={tempMinIcon} alt="tempMinIcon" />
+                </div>
+              </div>
+              <div className="info">
+                <span>Humadity</span>
+                <div className="infoNumber">
+                  <span>58%</span>
+                  <img src={humadityIcon} alt="humadityIcon" />
+                </div>
+              </div>
+              <div className="info">
+                <span>Cloudy</span>
+                <div className="infoNumber">
+                  <span>86%</span>
+                  <img src={cloudyIcon} alt="cloudyIcon" />
+                </div>
+              </div>
+              <div className="info">
+                <span>Wind</span>
+                <div className="infoNumber">
+                  <span>5km/h</span>
+                  <img src={windIcon} alt="windIcon" />
+                </div>
+              </div>
+            </div>
           </div>
+          <div className="lastLine"></div>
         </div>
+
       </main>
     </>
   )

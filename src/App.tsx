@@ -52,13 +52,28 @@ function App() {
           cloudy: data.current.cloud,
           wind_speed: data.current.wind_kph
         }
+
+        if (info.current_weather === "Sunny") {
+          document.body.className = "sunny"
+        }
+        else if (info.current_weather === "Moderate rain") {
+          document.body.className = "rainy";
+        }
+        else if (info.current_weather === "Cloudy") {
+          document.body.className = "cloudy"
+        }
+        else if (info.current_weather === "Patchy rain nearby") {
+          document.body.className = "light-rain"
+        }
+        else if(info.current_weather === "Partly cloudy"){
+          document.body.className="partly-cloudy";
+        }
+       
         setData(info)
       })
-    setText("")
+      setText("")
+
   }
-
-
-
 
 
   return (

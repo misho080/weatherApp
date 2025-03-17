@@ -15,6 +15,27 @@ body {
   display: flex;
 }
 
+.sunny{
+  background: url(./assets//Sunny.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rainy{
+  background:url(./assets/bg-weather.svg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.cloudy{
+  background:url(./assets/snow.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.light-rain{
+  background:url(./assets/thunder.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
 header {
   display: flex;
   text-align: center;

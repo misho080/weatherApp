@@ -65,14 +65,14 @@ function App() {
         else if (info.current_weather === "Patchy rain nearby") {
           document.body.className = "light-rain"
         }
-        else if(info.current_weather === "Partly cloudy"){
-          document.body.className="partly-cloudy";
+        else if (info.current_weather === "Partly cloudy") {
+          document.body.className = "partly-cloudy";
         }
-       
+
         setData(info)
       })
-      setText("")
 
+    setText("")
   }
 
 
@@ -82,7 +82,7 @@ function App() {
         data &&
         <div>
           <header>
-            <img src={mainLogo} alt="mainLogo" />
+            <img className="mainLogo" src={mainLogo} alt="mainLogo" />
             <form action="">
               <input onChange={(e) => setText(e.target.value)} className="searchInput" type="text" placeholder="Search Location..." />
               <img onClick={handleClick} className="inputSearchIcon" src={inputSearchIcon} alt="inputSearchIcon" />
